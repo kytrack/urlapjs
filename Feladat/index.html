@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+<script src="kod.js"></script>
+</head>
+
+<body>
+    <div id="urlap">
+        <form>
+            <label for="megrendelonev">Megrendelő neve:</label>
+            <input onfocus="fokuszban()" type="text" id="megrendelonevid" name="megrendelonev"><br>
+            <label for="megrendelocim">Megrendelő címe:</label>
+            <input onfocus="fokuszban()" type="text" id="megrendelocimid" name="megrendelocim"><br>
+            <label for="telefon">Megrendelő telefonszáma:</label>
+            <input onfocus="fokuszban()" type="tel" id="telefonid" name="telefon" value="+36"><br>
+            <input onfocus="fokuszban()" type="submit" value="Elküld">
+        </form>
+    </div>
+    <div id="visszaigazolas">
+        <button onclick="adatBanyasz()">Visszaigazolás!</button>
+        <p id="nev">Név: ?</p>
+        <p id="cim">Cím: ?</p>
+        <p id="telo">Telefon: ?</p>
+    </div>
+</body>
+
+</html>
