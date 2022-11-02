@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Urlap</title>
     <link href="style.css" type="text/css" rel="stylesheet"></link>
 <script src="kod.js"></script>
 </head>
@@ -14,12 +14,12 @@
     <div id="urlap">
         <form>
             <label for="megrendelonev">Megrendelő neve:</label>
-            <input onfocus="fokuszban()" type="text" id="megrendelonevid" name="megrendelonev"><br>
+            <input onfocus="fokuszban1()" onblur="nincsfokuszban1()" type="text" id="megrendelonevid" name="megrendelonev"><br>
             <label for="megrendelocim">Megrendelő címe:</label>
-            <input onfocus="fokuszban()" type="text" id="megrendelocimid" name="megrendelocim"><br>
+            <input onfocus="fokuszban2()" onblur="nincsfokuszban2()" type="text" id="megrendelocimid" name="megrendelocim"><br>
             <label for="telefon">Megrendelő telefonszáma:</label>
-            <input onfocus="fokuszban()" type="tel" id="telefonid" name="telefon" value="+36"><br>
-            <input onfocus="fokuszban()" type="submit" value="Elküld">
+            <input onfocus="fokuszban3()" onblur="nincsfokuszban3()" type="tel" id="telefonid" name="telefon" value="+36"><br>
+            <input type="submit" value="Elküld">
         </form>
     </div>
     <div id="visszaigazolas">

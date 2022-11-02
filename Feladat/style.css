@@ -3,7 +3,7 @@
     padding: 1em;
     border-radius: 1em;
     text-align: center;
-    width: 40%;
+    width: 23em;
     padding: 1em;
 }
 button{
@@ -27,7 +27,7 @@ input[type="submit"]{
     background-color:rgba(0, 0, 2000, 0.10);
     border-radius: 1em;
     text-align: center;
-    width: 40%;
+    width: 25em;
     margin: 1em 0em 0em 0em;
 }
 p{
